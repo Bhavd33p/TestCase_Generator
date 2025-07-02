@@ -1,0 +1,373 @@
+/* Home Component Styles */
+.home-container {
+  min-height: 100vh;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* Skip Link for Accessibility */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.skip-link:focus {
+  left: 1rem !important;
+  top: 1rem !important;
+  outline: 2px solid #fff;
+}
+
+/* Header Styles */
+.home-header {
+  margin-bottom: 2rem;
+}
+
+.home-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin: 0 0 1rem 0;
+}
+
+/* Breadcrumb Navigation */
+.breadcrumb-nav {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb-nav ol {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.breadcrumb-nav li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-nav span {
+  margin: 0 0.5rem;
+  color: #6b7280;
+}
+
+.breadcrumb-nav button {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  font: inherit;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.breadcrumb-nav button:hover {
+  color: #1d4ed8;
+  background-color: #eff6ff;
+}
+
+.breadcrumb-nav button:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+.breadcrumb-nav span[aria-current="page"] {
+  color: #374151;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+}
+
+/* Main Content */
+.home-main {
+  outline: none;
+  min-height: 400px;
+}
+
+/* Error Container */
+.error-container {
+  padding: 2rem;
+  margin: 1rem 0;
+  border: 2px solid #ef4444;
+  border-radius: 8px;
+  background-color: #fef2f2;
+  color: #dc2626;
+}
+
+.error-container h2,
+.error-container h3 {
+  margin: 0 0 1rem 0;
+  color: #dc2626;
+}
+
+.error-container details {
+  margin-top: 1rem;
+}
+
+.error-container summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.error-container summary:hover {
+  background-color: #fee2e2;
+}
+
+.error-container pre {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  background-color: #fee2e2;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.error-container p {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.error-container button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.error-container button:hover {
+  background-color: #b91c1c;
+  transform: translateY(-1px);
+}
+
+.error-container button:focus {
+  outline: 2px solid #dc2626;
+  outline-offset: 2px;
+}
+
+.error-container button:active {
+  transform: translateY(0);
+}
+
+/* Loading Container */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  min-height: 200px;
+}
+
+.loading-container p {
+  margin-top: 1rem;
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+/* Spinner Animation */
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f4f6;
+  border-top: 4px solid #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Footer */
+.home-footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.home-footer kbd {
+  padding: 0.125rem 0.375rem;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-family: monospace;
+  margin: 0 0.125rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 0.5rem;
+  }
+  
+  .home-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .breadcrumb-nav {
+    padding: 0.5rem 0;
+  }
+  
+  .breadcrumb-nav ol {
+    gap: 0.25rem;
+  }
+  
+  .error-container {
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .loading-container {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-header h1 {
+    font-size: 1.25rem;
+  }
+  
+  .breadcrumb-nav ol {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .breadcrumb-nav li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .breadcrumb-nav span {
+    display: none;
+  }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  .error-container {
+    border-width: 3px;
+  }
+  
+  .breadcrumb-nav button {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  
+  .spinner {
+    border-width: 5px;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .spinner {
+    animation: none;
+    border-top-color: transparent;
+  }
+  
+  .error-container button,
+  .breadcrumb-nav button {
+    transition: none;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .home-container {
+    background-color: #111827;
+    color: #f9fafb;
+  }
+  
+  .home-header h1 {
+    color: #f9fafb;
+  }
+  
+  .breadcrumb-nav {
+    border-bottom-color: #374151;
+  }
+  
+  .breadcrumb-nav button {
+    color: #60a5fa;
+  }
+  
+  .breadcrumb-nav button:hover {
+    color: #93c5fd;
+    background-color: #1e3a8a;
+  }
+  
+  .breadcrumb-nav span[aria-current="page"] {
+    color: #d1d5db;
+  }
+  
+  .home-footer {
+    border-top-color: #374151;
+    color: #9ca3af;
+  }
+  
+  .home-footer kbd {
+    background-color: #374151;
+    border-color: #4b5563;
+    color: #f9fafb;
+  }
+  
+  .loading-container p {
+    color: #9ca3af;
+  }
+  
+  .spinner {
+    border-color: #374151;
+    border-top-color: #60a5fa;
+  }
+}
+
+/* Focus Management */
+.home-main:focus {
+  outline: none;
+}
+
+/* Print Styles */
+@media print {
+  .skip-link,
+  .breadcrumb-nav,
+  .home-footer {
+    display: none;
+  }
+  
+  .error-container {
+    border: 2px solid #000;
+    background: #fff;
+    color: #000;
+  }
+  
+  .loading-container {
+    display: none;
+  }
+} 

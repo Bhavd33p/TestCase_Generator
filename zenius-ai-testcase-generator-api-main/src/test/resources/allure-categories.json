@@ -1,0 +1,32 @@
+[
+  {
+    "name": "File Upload Issues",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*upload.*|.*file.*"
+  },
+  {
+    "name": "File Viewing Issues",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*view.*|.*display.*|.*chrome.*"
+  },
+  {
+    "name": "API Connection Issues",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*connection.*|.*timeout.*|.*network.*"
+  },
+  {
+    "name": "Database Issues",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*database.*|.*mongodb.*|.*sql.*"
+  },
+  {
+    "name": "Authentication Issues",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*auth.*|.*login.*|.*token.*"
+  },
+  {
+    "name": "Configuration Issues",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*config.*|.*property.*|.*setting.*"
+  }
+] 

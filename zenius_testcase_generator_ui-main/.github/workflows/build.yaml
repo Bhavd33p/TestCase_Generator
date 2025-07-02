@@ -1,0 +1,13 @@
+name: Build and deploy job
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: zinnia/qas-devops/.github/workflows/npm-build.yaml@main
+    secrets: inherit
+
+  deploy-qa:
+    uses: zinnia/qas-devops/.github/workflows/deploy-aws-ecs-qa.yaml@main
+    needs: build
+    secrets: inherit

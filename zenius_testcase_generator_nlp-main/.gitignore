@@ -1,0 +1,48 @@
+# Configuration files with API keys and secrets
+application.properties
+config.yaml
+config.json
+*.env
+.env.*
+secrets.yaml
+secrets.json
+*secrets*
+*api-keys*
+*apikeys*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+pip-log.txt
+.pytest_cache/
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# ChromaDB
+chroma_db/
+*.sqlite3
+
+# FAISS
+faiss_index
+*.index
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db 

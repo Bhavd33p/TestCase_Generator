@@ -1,0 +1,27 @@
+[33md17943e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/pallavi-fetch_embedded_documents_list[m[33m, [m[1;31morigin/feature/pallavi-remove_hardcoding_Code[m[33m, [m[1;32mfeature/pallavi-remove_hardcoding_Code[m[33m)[m TAP-1237 Removed comments and code for embedded documents
+[33m1fb178b[m[33m ([m[1;32mfeature/pallavi-send_prompt_to_UI[m[33m)[m TAP-1237 Changed the api tokens for jira and confluence
+[33m1fa9e73[m TAP-1237 Change application.properties
+[33m78b1713[m TAP-1237 removed hardcode
+[33m8bde953[m[33m ([m[1;31morigin/feature/pallavi-fetch_embedded_documents_list[m[33m)[m merging with helper branch
+[33m4dc48e5[m changed api token for jira and confluence
+[33m6a7a00c[m merging with helper branch
+[33m1206559[m refactor code of services for adding servicehelper classes
+[33m7b04f12[m TAP-1226 developed code for fetching embedded documents -in progress
+[33mf18ba55[m[33m ([m[1;32mfeature/pallavi-Fetch_SharepointLink_Attachments_Data[m[33m)[m TAP-1224 added code for fetching the whole text from the word docx
+[33mde1b0fe[m TAP-1223 removed code for downloading word sample
+[33m8ed03cb[m TAP-1222 added code for fetching the data from the pdf and xlsx files for jira and confluence links
+[33mb00cb41[m[33m ([m[1;31morigin/feature/pallavi-word_SampleTemplate[m[33m, [m[1;32mfeature/pallavi-word_SampleTemplate[m[33m)[m TAP-1221 added code for sownloading word sample template
+[33mf815f17[m[33m ([m[1;31morigin/feature/pallavi-pdf_generator[m[33m, [m[1;32mfeature/pallavi-pdf_generator[m[33m)[m TAP-1217 added code for generating the pdf from fetched text and sending it to fastapi
+[33m5ec5450[m[33m ([m[1;31morigin/feature/pallavi-removed_duplicacy[m[33m, [m[1;32mfeature/pallavi-removed_duplicacy[m[33m)[m TAP-1214 centralized code for extractdatafromdocx
+[33m7a50dc5[m[33m ([m[1;31morigin/feature/pallavi_docker[m[33m, [m[1;32mfeature/pallavi_docker[m[33m)[m TAP-1207 created docker file and also added code for the preventing insertion of duplicate hash into mongodb
+[33m8c9b6ec[m[33m ([m[1;31morigin/feature/pallavi_UI_Integration[m[33m, [m[1;32mfeature/pallavi_UI_Integration[m[33m)[m TAP-1197 Integrated UI with backend
+[33m3aa8d6d[m[33m ([m[1;31morigin/feature/pallavi_dataIntegrations[m[33m, [m[1;32mfeature/pallavi_dataIntegrations[m[33m)[m added code for creating unique identifire for source and seing it to fastapi application
+[33m3b2c6c9[m added code for jira links, confluence links, word, text files intergation
+[33m6448634[m[33m ([m[1;31morigin/feature/pallavi_excelutility[m[33m, [m[1;32mfeature/pallavi_excelutility[m[33m)[m added code for fetching data from word files and jira, confluence links present in the files also fecthing the data from jira, confluence links and attachments present in it
+[33m40f42fd[m added functionalities for generating test cases using jira id, confluence links, word doc
+[33mb89d353[m refactor code for inserting response into excelsheet
+[33m4499bed[m added code for excelutility
+[33mb43ddc7[m added code for excel utility and insertiing requirements into jira
+[33mbd13b80[m added code for inserting requirements into mongoDB
+[33m1447d63[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/backend-setup[m[33m, [m[1;31morigin/development[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature/backend-setup[m[33m, [m[1;32mdevelopment[m[33m)[m Initial Zenius API backend project creation
+[33m570c472[m Initial commit

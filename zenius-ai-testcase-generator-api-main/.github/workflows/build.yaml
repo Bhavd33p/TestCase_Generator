@@ -1,0 +1,9 @@
+name: Build and Deploy job
+on:
+  workflow_dispatch: 
+
+jobs:
+  
+  build:
+    uses: zinnia/qas-devops/.github/workflows/gradlebuild.yaml@main
+    secrets: inherit

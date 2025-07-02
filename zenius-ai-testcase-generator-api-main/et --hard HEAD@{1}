@@ -1,0 +1,105 @@
+[33md17943e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/pallavi-fetch_embedded_documents_list[m[33m, [m[1;31morigin/feature/pallavi-remove_hardcoding_Code[m[33m, [m[1;32mfeature/pallavi-remove_hardcoding_Code[m[33m)[m HEAD@{0}: pull origin feature/pallavi-remove_hardcoding_Code: Fast-forward
+[33m8bde953[m[33m ([m[1;31morigin/feature/pallavi-fetch_embedded_documents_list[m[33m)[m HEAD@{1}: checkout: moving from feature/pallavi-remove_hardcoding_Code to feature/pallavi-fetch_embedded_documents_list
+[33md17943e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/pallavi-fetch_embedded_documents_list[m[33m, [m[1;31morigin/feature/pallavi-remove_hardcoding_Code[m[33m, [m[1;32mfeature/pallavi-remove_hardcoding_Code[m[33m)[m HEAD@{2}: reset: moving to HEAD
+[33md17943e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/pallavi-fetch_embedded_documents_list[m[33m, [m[1;31morigin/feature/pallavi-remove_hardcoding_Code[m[33m, [m[1;32mfeature/pallavi-remove_hardcoding_Code[m[33m)[m HEAD@{3}: commit: TAP-1237 Removed comments and code for embedded documents
+[33m1fb178b[m[33m ([m[1;32mfeature/pallavi-send_prompt_to_UI[m[33m)[m HEAD@{4}: checkout: moving from feature/pallavi-send_prompt_to_UI to feature/pallavi-remove_hardcoding_Code
+[33m1fb178b[m[33m ([m[1;32mfeature/pallavi-send_prompt_to_UI[m[33m)[m HEAD@{5}: checkout: moving from feature/pallavi-remove_hardcoding_Code to feature/pallavi-send_prompt_to_UI
+[33m1fb178b[m[33m ([m[1;32mfeature/pallavi-send_prompt_to_UI[m[33m)[m HEAD@{6}: checkout: moving from feature/pallavi-mongoSocket_Error to feature/pallavi-remove_hardcoding_Code
+[33m46f7ccc[m[33m ([m[1;32mfeature/pallavi-mongoSocket_Error[m[33m)[m HEAD@{7}: commit: trying to solve java scoket timeout error
+[33m78b1713[m HEAD@{8}: checkout: moving from feature/pallavi-remove_hardcoding_Code to feature/pallavi-mongoSocket_Error
+[33m1fb178b[m[33m ([m[1;32mfeature/pallavi-send_prompt_to_UI[m[33m)[m HEAD@{9}: commit: TAP-1237 Changed the api tokens for jira and confluence
+[33m1fa9e73[m HEAD@{10}: checkout: moving from feature/pallavi-helper_Method_For_Service to feature/pallavi-remove_hardcoding_Code
+[33m2eb9c51[m[33m ([m[1;31morigin/feature/pallavi-helper_Method_For_Service[m[33m, [m[1;32mfeature/pallavi-helper_Method_For_Service[m[33m)[m HEAD@{11}: checkout: moving from feature/pallavi-remove_hardcoding_Code to feature/pallavi-helper_Method_For_Service
+[33m1fa9e73[m HEAD@{12}: checkout: moving from feature/pallavi-helper_Method_For_Service to feature/pallavi-remove_hardcoding_Code
+[33m2eb9c51[m[33m ([m[1;31morigin/feature/pallavi-helper_Method_For_Service[m[33m, [m[1;32mfeature/pallavi-helper_Method_For_Service[m[33m)[m HEAD@{13}: commit: Changed the api tokens for jira and confluence
+[33m99bb284[m HEAD@{14}: checkout: moving from feature/pallavi-fetch_WordDocx_text to feature/pallavi-helper_Method_For_Service
+[33mdb3c11b[m[33m ([m[1;31morigin/feature/pallavi-fetch_WordDocx_text[m[33m, [m[1;32mfeature/pallavi-fetch_WordDocx_text[m[33m)[m HEAD@{15}: checkout: moving from feature/pallavi-helper_Method_For_Service to feature/pallavi-fetch_WordDocx_text
+[33m99bb284[m HEAD@{16}: commit: changing api token
+[33m4dc48e5[m HEAD@{17}: checkout: moving from feature/pallavi-fetch_WordDocx_text to feature/pallavi-helper_Method_For_Service
+[33mdb3c11b[m[33m ([m[1;31morigin/feature/pallavi-fetch_WordDocx_text[m[33m, [m[1;32mfeature/pallavi-fetch_WordDocx_text[m[33m)[m HEAD@{18}: checkout: moving from feature/pallavi-helper_Method_For_Service to feature/pallavi-fetch_WordDocx_text
+[33m4dc48e5[m HEAD@{19}: checkout: moving from feature/pallavi-fetch_WordDocx_text to feature/pallavi-helper_Method_For_Service
+[33mdb3c11b[m[33m ([m[1;31morigin/feature/pallavi-fetch_WordDocx_text[m[33m, [m[1;32mfeature/pallavi-fetch_WordDocx_text[m[33m)[m HEAD@{20}: commit: TAP-1224 Changed the api tokens for jira and confluence
+[33mf18ba55[m[33m ([m[1;32mfeature/pallavi-Fetch_SharepointLink_Attachments_Data[m[33m)[m HEAD@{21}: checkout: moving from feature/pallavi-text_Extraction_PdfXlsx to feature/pallavi-fetch_WordDocx_text
+[33m5942487[m[33m ([m[1;31morigin/feature/pallavi-text_Extraction_PdfXlsx[m[33m, [m[1;32mfeature/pallavi-text_Extraction_PdfXlsx[m[33m)[m HEAD@{22}: commit: TAP-1222 Changed the api tokens for jira and confluence
+[33m8ed03cb[m HEAD@{23}: checkout: moving from feature/pallavi-fetch_WordDocx_text to feature/pallavi-text_Extraction_PdfXlsx
+[33mf18ba55[m[33m ([m[1;32mfeature/pallavi-Fetch_SharepointLink_Attachments_Data[m[33m)[m HEAD@{24}: checkout: moving from feature/pallavi-helper_Method_For_Service to feature/pallavi-fetch_WordDocx_text
+[33m4dc48e5[m HEAD@{25}: checkout: moving from feature/pallavi-helper_Method_For_Service to feature/pallavi-helper_Method_For_Service
+[33m4dc48e5[m HEAD@{26}: checkout: moving from feature/pallavi-fetch_embedded_documents_list to feature/pallavi-helper_Method_For_Service
+[33m8bde953[m[33m ([m[1;31morigin/feature/pallavi-fetch_embedded_documents_list[m[33m)[m HEAD@{27}: checkout: moving from feature/pallavi-fetch_embedded_documents_list to feature/pallavi-fetch_embedded_documents_list
+[33m8bde953[m[33m ([m[1;31morigin/feature/pallavi-fetch_embedded_documents_list[m[33m)[m HEAD@{28}: checkout: moving from feature/pallavi-remove_hardcoding_Code to feature/pallavi-fetch_embedded_documents_list
+[33m1fa9e73[m HEAD@{29}: commit: TAP-1237 Change application.properties
+[33m78b1713[m HEAD@{30}: checkout: moving from feature/pallavi-mongoSocket_Error to feature/pallavi-remove_hardcoding_Code
+[33m78b1713[m HEAD@{31}: checkout: moving from feature/pallavi-remove_hardcoding_Code to feature/pallavi-mongoSocket_Error
+[33m78b1713[m HEAD@{32}: checkout: moving from feature/pallavi-async_processing to feature/pallavi-remove_hardcoding_Code
+[33mfd1acdd[m[33m ([m[1;32mfeature/pallavi-async_processing[m[33m)[m HEAD@{33}: commit: working on async operations
+[33m68a7f93[m HEAD@{34}: checkout: moving from feature/pallavi-remove_hardcoding_Code to feature/pallavi-async_processing
+[33m78b1713[m HEAD@{35}: checkout: moving from feature/pallavi-async_processing to feature/pallavi-remove_hardcoding_Code
+[33m68a7f93[m HEAD@{36}: commit: working on async
+[33mad22b9f[m HEAD@{37}: checkout: moving from feature/pallavi-remove_hardcoding_Code to feature/pallavi-async_processing
+[33m78b1713[m HEAD@{38}: checkout: moving from feature/pallavi-async_processing to feature/pallavi-remove_hardcoding_Code
+[33mad22b9f[m HEAD@{39}: commit: working on async processing
+[33m78b1713[m HEAD@{40}: checkout: moving from feature/pallavi-remove_hardcoding_Code to feature/pallavi-async_processing
+[33m78b1713[m HEAD@{41}: checkout: moving from feature/pallavi-async_processing to feature/pallavi-remove_hardcoding_Code
+[33m78b1713[m HEAD@{42}: Branch: renamed refs/heads/feature/pallavi-async-processing to refs/heads/feature/pallavi-async_processing
+[33m78b1713[m HEAD@{44}: checkout: moving from feature/pallavi-remove_hardcoding_Code to feature/pallavi-async-processing
+[33m78b1713[m HEAD@{45}: commit: TAP-1237 removed hardcode
+[33m8bde953[m[33m ([m[1;31morigin/feature/pallavi-fetch_embedded_documents_list[m[33m)[m HEAD@{46}: checkout: moving from feature/pallavi-fetch_embedded_documents_list to feature/pallavi-remove_hardcoding_Code
+[33m8bde953[m[33m ([m[1;31morigin/feature/pallavi-fetch_embedded_documents_list[m[33m)[m HEAD@{47}: checkout: moving from feature/pallavi-asynchronous_requests to feature/pallavi-fetch_embedded_documents_list
+[33m8bde953[m[33m ([m[1;31morigin/feature/pallavi-fetch_embedded_documents_list[m[33m)[m HEAD@{48}: checkout: moving from feature/pallavi-fetch_embedded_documents_list to feature/pallavi-asynchronous_requests
+[33m8bde953[m[33m ([m[1;31morigin/feature/pallavi-fetch_embedded_documents_list[m[33m)[m HEAD@{49}: checkout: moving from feature/pallavi-helper_Method_For_Service to feature/pallavi-fetch_embedded_documents_list
+[33m4dc48e5[m HEAD@{50}: checkout: moving from feature/pallavi-fetch_embedded_documents_list to feature/pallavi-helper_Method_For_Service
+[33m8bde953[m[33m ([m[1;31morigin/feature/pallavi-fetch_embedded_documents_list[m[33m)[m HEAD@{51}: checkout: moving from feature/pallavi-fetch_embedded_documents_list to feature/pallavi-fetch_embedded_documents_list
+[33m8bde953[m[33m ([m[1;31morigin/feature/pallavi-fetch_embedded_documents_list[m[33m)[m HEAD@{52}: commit (merge): merging with helper branch
+[33m6a7a00c[m HEAD@{53}: checkout: moving from feature/pallavi-helper_Method_For_Service to feature/pallavi-fetch_embedded_documents_list
+[33m4dc48e5[m HEAD@{54}: commit: changed api token for jira and confluence
+[33m1206559[m HEAD@{55}: checkout: moving from feature/pallavi-fetch_embedded_documents_list to feature/pallavi-helper_Method_For_Service
+[33m6a7a00c[m HEAD@{56}: commit (merge): merging with helper branch
+[33m7b04f12[m HEAD@{57}: reset: moving to HEAD
+[33m7b04f12[m HEAD@{58}: checkout: moving from feature/pallavi-helper_Method_For_Service to feature/pallavi-fetch_embedded_documents_list
+[33m1206559[m HEAD@{59}: commit: refactor code of services for adding servicehelper classes
+[33mf18ba55[m[33m ([m[1;32mfeature/pallavi-Fetch_SharepointLink_Attachments_Data[m[33m)[m HEAD@{60}: checkout: moving from feature/pallavi-fetch_WordDocx_text to feature/pallavi-helper_Method_For_Service
+[33mf18ba55[m[33m ([m[1;32mfeature/pallavi-Fetch_SharepointLink_Attachments_Data[m[33m)[m HEAD@{61}: checkout: moving from feature/pallavi-Fetch_SharepointLink_Attachments_Data to feature/pallavi-fetch_WordDocx_text
+[33mf18ba55[m[33m ([m[1;32mfeature/pallavi-Fetch_SharepointLink_Attachments_Data[m[33m)[m HEAD@{62}: checkout: moving from feature/pallavi-fetch_embedded_documents_list to feature/pallavi-Fetch_SharepointLink_Attachments_Data
+[33m7b04f12[m HEAD@{63}: commit: TAP-1226 developed code for fetching embedded documents -in progress
+[33mf18ba55[m[33m ([m[1;32mfeature/pallavi-Fetch_SharepointLink_Attachments_Data[m[33m)[m HEAD@{64}: checkout: moving from feature/pallavi-Fetch_SharepointLink_Attachments_Data to feature/pallavi-fetch_embedded_documents_list
+[33mf18ba55[m[33m ([m[1;32mfeature/pallavi-Fetch_SharepointLink_Attachments_Data[m[33m)[m HEAD@{65}: checkout: moving from feature/pallavi-fetch_embedded_documents_list to feature/pallavi-Fetch_SharepointLink_Attachments_Data
+[33mf18ba55[m[33m ([m[1;32mfeature/pallavi-Fetch_SharepointLink_Attachments_Data[m[33m)[m HEAD@{66}: checkout: moving from feature/pallavi-fetch_WordDocx_text to feature/pallavi-fetch_embedded_documents_list
+[33mf18ba55[m[33m ([m[1;32mfeature/pallavi-Fetch_SharepointLink_Attachments_Data[m[33m)[m HEAD@{67}: commit: TAP-1224 added code for fetching the whole text from the word docx
+[33mde1b0fe[m HEAD@{68}: commit: TAP-1223 removed code for downloading word sample
+[33m8ed03cb[m HEAD@{69}: checkout: moving from feature/pallavi-text_Extraction_PdfXlsx to feature/pallavi-fetch_WordDocx_text
+[33m8ed03cb[m HEAD@{70}: checkout: moving from feature/pallavi-fetch_WordDocx_text to feature/pallavi-text_Extraction_PdfXlsx
+[33mf815f17[m[33m ([m[1;31morigin/feature/pallavi-pdf_generator[m[33m, [m[1;32mfeature/pallavi-pdf_generator[m[33m)[m HEAD@{71}: checkout: moving from feature/pallavi-pdf_generator to feature/pallavi-fetch_WordDocx_text
+[33mf815f17[m[33m ([m[1;31morigin/feature/pallavi-pdf_generator[m[33m, [m[1;32mfeature/pallavi-pdf_generator[m[33m)[m HEAD@{72}: checkout: moving from feature/pallavi-embedded_Attachments_List to feature/pallavi-pdf_generator
+[33m4dbfcca[m HEAD@{73}: commit: code development for fetching list of embedded documents
+[33m8ed03cb[m HEAD@{74}: checkout: moving from feature/pallavi-textExtractionPdfXlsx to feature/pallavi-embedded_Attachments_List
+[33m8ed03cb[m HEAD@{75}: commit: TAP-1222 added code for fetching the data from the pdf and xlsx files for jira and confluence links
+[33mb00cb41[m[33m ([m[1;31morigin/feature/pallavi-word_SampleTemplate[m[33m, [m[1;32mfeature/pallavi-word_SampleTemplate[m[33m)[m HEAD@{76}: checkout: moving from feature/pallavi-word_SampleTemplate to feature/pallavi-textExtractionPdfXlsx
+[33mb00cb41[m[33m ([m[1;31morigin/feature/pallavi-word_SampleTemplate[m[33m, [m[1;32mfeature/pallavi-word_SampleTemplate[m[33m)[m HEAD@{77}: commit (amend): TAP-1221 added code for sownloading word sample template
+[33maa7aeb6[m HEAD@{78}: commit: TAP-1221 feature/pallavi-word_SampleTemplate
+[33mf815f17[m[33m ([m[1;31morigin/feature/pallavi-pdf_generator[m[33m, [m[1;32mfeature/pallavi-pdf_generator[m[33m)[m HEAD@{79}: checkout: moving from feature/pallavi-pdf_generator to feature/pallavi-word_SampleTemplate
+[33mf815f17[m[33m ([m[1;31morigin/feature/pallavi-pdf_generator[m[33m, [m[1;32mfeature/pallavi-pdf_generator[m[33m)[m HEAD@{80}: commit: TAP-1217 added code for generating the pdf from fetched text and sending it to fastapi
+[33m5ec5450[m[33m ([m[1;31morigin/feature/pallavi-removed_duplicacy[m[33m, [m[1;32mfeature/pallavi-removed_duplicacy[m[33m)[m HEAD@{81}: checkout: moving from feature/pallavi-removed_duplicacy to feature/pallavi-pdf_generator
+[33m5ec5450[m[33m ([m[1;31morigin/feature/pallavi-removed_duplicacy[m[33m, [m[1;32mfeature/pallavi-removed_duplicacy[m[33m)[m HEAD@{82}: commit: TAP-1214 centralized code for extractdatafromdocx
+[33m7a50dc5[m[33m ([m[1;31morigin/feature/pallavi_docker[m[33m, [m[1;32mfeature/pallavi_docker[m[33m)[m HEAD@{83}: checkout: moving from feature/pallavi_docker to feature/pallavi-removed_duplicacy
+[33m7a50dc5[m[33m ([m[1;31morigin/feature/pallavi_docker[m[33m, [m[1;32mfeature/pallavi_docker[m[33m)[m HEAD@{84}: commit: TAP-1207 created docker file and also added code for the preventing insertion of duplicate hash into mongodb
+[33m8c9b6ec[m[33m ([m[1;31morigin/feature/pallavi_UI_Integration[m[33m, [m[1;32mfeature/pallavi_UI_Integration[m[33m)[m HEAD@{85}: checkout: moving from feature/pallavi_UI_Integration to feature/pallavi_docker
+[33m8c9b6ec[m[33m ([m[1;31morigin/feature/pallavi_UI_Integration[m[33m, [m[1;32mfeature/pallavi_UI_Integration[m[33m)[m HEAD@{86}: commit: TAP-1197 Integrated UI with backend
+[33m3aa8d6d[m[33m ([m[1;31morigin/feature/pallavi_dataIntegrations[m[33m, [m[1;32mfeature/pallavi_dataIntegrations[m[33m)[m HEAD@{87}: checkout: moving from feature/pallavi_dataIntegrations to feature/pallavi_UI_Integration
+[33m3aa8d6d[m[33m ([m[1;31morigin/feature/pallavi_dataIntegrations[m[33m, [m[1;32mfeature/pallavi_dataIntegrations[m[33m)[m HEAD@{88}: commit: added code for creating unique identifire for source and seing it to fastapi application
+[33m3b2c6c9[m HEAD@{89}: commit: added code for jira links, confluence links, word, text files intergation
+[33m6448634[m[33m ([m[1;31morigin/feature/pallavi_excelutility[m[33m, [m[1;32mfeature/pallavi_excelutility[m[33m)[m HEAD@{90}: checkout: moving from feature/pallavi_dataIntegrations to feature/pallavi_dataIntegrations
+[33m6448634[m[33m ([m[1;31morigin/feature/pallavi_excelutility[m[33m, [m[1;32mfeature/pallavi_excelutility[m[33m)[m HEAD@{91}: checkout: moving from feature/pallavi_excelutility to feature/pallavi_dataIntegrations
+[33m6448634[m[33m ([m[1;31morigin/feature/pallavi_excelutility[m[33m, [m[1;32mfeature/pallavi_excelutility[m[33m)[m HEAD@{92}: checkout: moving from pallavi/dataProcessing to feature/pallavi_excelutility
+[33m6448634[m[33m ([m[1;31morigin/feature/pallavi_excelutility[m[33m, [m[1;32mfeature/pallavi_excelutility[m[33m)[m HEAD@{93}: checkout: moving from feature/pallavi_excelutility to pallavi/dataProcessing
+[33m6448634[m[33m ([m[1;31morigin/feature/pallavi_excelutility[m[33m, [m[1;32mfeature/pallavi_excelutility[m[33m)[m HEAD@{94}: commit: added code for fetching data from word files and jira, confluence links present in the files also fecthing the data from jira, confluence links and attachments present in it
+[33m40f42fd[m HEAD@{95}: commit: added functionalities for generating test cases using jira id, confluence links, word doc
+[33mb89d353[m HEAD@{96}: commit: refactor code for inserting response into excelsheet
+[33m4499bed[m HEAD@{97}: commit: added code for excelutility
+[33mb43ddc7[m HEAD@{98}: commit: added code for excel utility and insertiing requirements into jira
+[33mbd13b80[m HEAD@{99}: commit: added code for inserting requirements into mongoDB
+[33m1447d63[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/backend-setup[m[33m, [m[1;31morigin/development[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature/backend-setup[m[33m, [m[1;32mdevelopment[m[33m)[m HEAD@{100}: checkout: moving from feature/pallavi_excelutility to feature/pallavi_excelutility
+[33m1447d63[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/backend-setup[m[33m, [m[1;31morigin/development[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature/backend-setup[m[33m, [m[1;32mdevelopment[m[33m)[m HEAD@{101}: checkout: moving from development to feature/pallavi_excelutility
+[33m1447d63[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/backend-setup[m[33m, [m[1;31morigin/development[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature/backend-setup[m[33m, [m[1;32mdevelopment[m[33m)[m HEAD@{102}: checkout: moving from feature/backend-setup to development
+[33m1447d63[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/backend-setup[m[33m, [m[1;31morigin/development[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature/backend-setup[m[33m, [m[1;32mdevelopment[m[33m)[m HEAD@{103}: checkout: moving from development to feature/backend-setup
+[33m1447d63[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/backend-setup[m[33m, [m[1;31morigin/development[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature/backend-setup[m[33m, [m[1;32mdevelopment[m[33m)[m HEAD@{104}: checkout: moving from main to development
+[33m1447d63[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/backend-setup[m[33m, [m[1;31morigin/development[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature/backend-setup[m[33m, [m[1;32mdevelopment[m[33m)[m HEAD@{105}: clone: from https://github.com/zinnia/zenius-ai-testcase-generator-api.git

@@ -1,0 +1,9 @@
+{
+    "openai_api_key": "YOUR_OPENAI_API_KEY",
+    "tavily_api_key": null,
+    "chroma_persist_directory": "./chroma_db", 
+    "mongodb_uri": null,
+    "springboot_url": "http://localhost:8081",
+    "fastapi_host": "0.0.0.0",
+    "fastapi_port": 8080
+} 

@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+@import './animations.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables for Orange & White Design System */
+@layer base {
+  :root {
+    /* Orange Primary Colors */
+    --primary-50: 255 247 237;
+    --primary-100: 255 237 213;
+    --primary-200: 254 215 170;
+    --primary-300: 253 186 116;
+    --primary-400: 251 146 60;
+    --primary-500: 249 115 22;
+    --primary-600: 234 88 12;
+    --primary-700: 194 65 12;
+    --primary-800: 154 52 18;
+    --primary-900: 124 45 18;
+    
+    /* Background Colors */
+    --background: 255 255 255;
+    --surface: 250 250 250;
+    --surface-variant: 255 247 237;
+    
+    /* Text Colors */
+    --text-primary: 23 23 23;
+    --text-secondary: 82 82 82;
+    --text-muted: 115 115 115;
+    --text-inverse: 255 255 255;
+    
+    /* Border Colors */
+    --border: 229 229 229;
+    --border-light: 245 245 245;
+    --border-strong: 212 212 212;
+    
+    /* Semantic Colors */
+    --success: 34 197 94;
+    --warning: 245 158 11;
+    --error: 239 68 68;
+    --info: 59 130 246;
+    
+    /* Orange Gradients */
+    --gradient-primary: linear-gradient(135deg, rgb(249 115 22) 0%, rgb(234 88 12) 100%);
+    --gradient-secondary: linear-gradient(135deg, rgb(254 215 170) 0%, rgb(253 186 116) 100%);
+    --gradient-warm: linear-gradient(135deg, rgb(251 146 60) 0%, rgb(249 115 22) 50%, rgb(234 88 12) 100%);
+    
+    /* Shadows with Orange Tints */
+    --shadow-orange-sm: 0 1px 2px 0 rgba(249, 115, 22, 0.05);
+    --shadow-orange: 0 4px 6px -1px rgba(249, 115, 22, 0.1), 0 2px 4px -1px rgba(249, 115, 22, 0.06);
+    --shadow-orange-md: 0 10px 15px -3px rgba(249, 115, 22, 0.1), 0 4px 6px -2px rgba(249, 115, 22, 0.05);
+    --shadow-orange-lg: 0 20px 25px -5px rgba(249, 115, 22, 0.1), 0 10px 10px -5px rgba(249, 115, 22, 0.04);
+    --shadow-glow-orange: 0 0 20px rgba(249, 115, 22, 0.3);
+  }
+
+  .dark {
+    /* Dark mode with orange accents */
+    --background: 23 23 23;
+    --surface: 38 38 38;
+    --surface-variant: 64 45 33;
+    --text-primary: 255 255 255;
+    --text-secondary: 212 212 212;
+    --text-muted: 163 163 163;
+    --text-inverse: 23 23 23;
+    --border: 64 64 64;
+    --border-light: 82 82 82;
+    --border-strong: 115 115 115;
+  }
+}
+
+/* Modern CSS Reset with Orange Theme */
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: rgb(var(--background));
+    color: rgb(var(--text-primary));
+    font-family: 'Inter', system-ui, sans-serif;
+    font-feature-settings: 'cv11', 'ss01';
+    font-variation-settings: 'opsz' 32;
+    min-height: 100vh;
+    antialiased: true;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Enhanced focus styles with orange */
+  *:focus-visible {
+    outline: 2px solid rgb(249 115 22);
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+  }
+
+  /* Button and input improvements */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+
+  button,
+  [type='button'],
+  [type='reset'],
+  [type='submit'] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+
+  button:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  /* Link styles */
+  a {
+    color: rgb(249 115 22);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: rgb(234 88 12);
+    text-decoration: underline;
+  }
+
+  /* List styles */
+  ol,
+  ul {
+    list-style: none;
+  }
+
+  /* Image improvements */
+  img,
+  svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Table improvements */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  /* Form improvements with orange theme */
+  input,
+  textarea {
+    background-color: rgb(var(--background));
+    border: 1px solid rgb(var(--border));
+    border-radius: 0.5rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  input:focus,
+  textarea:focus {
+    border-color: rgb(249 115 22);
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+  }
+
+  /* Custom scrollbar with orange theme */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgb(var(--surface));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(249, 115, 22, 0.3);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(249, 115, 22, 0.5);
+  }
+
+  /* Selection styling with orange */
+  ::selection {
+    background: rgba(249, 115, 22, 0.2);
+    color: rgb(var(--text-primary));
+  }
+}
+
+/* Component Base Styles with Orange Theme */
+@layer components {
+  /* Container utilities */
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .container-sm {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .container-md {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .container-lg {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  /* Typography utilities with orange accents */
+  .text-gradient-orange {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .heading-1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .heading-2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+
+  .heading-3 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .heading-4 {
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .body-large {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: rgb(var(--text-secondary));
+  }
+
+  .body-medium {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgb(var(--text-secondary));
+  }
+
+  .body-small {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: rgb(var(--text-muted));
+  }
+
+  /* Orange-themed glass morphism */
+  .glass-orange {
+    background: rgba(249, 115, 22, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(249, 115, 22, 0.2);
+  }
+
+  .glass-white {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  /* Button variants with orange theme */
+  .btn-primary {
+    background: var(--gradient-primary);
+    color: rgb(var(--text-inverse));
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow-orange);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-orange-lg);
+  }
+
+  .btn-secondary {
+    background: rgb(var(--surface));
+    color: rgb(249 115 22);
+    border: 1px solid rgb(var(--border));
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .btn-secondary:hover {
+    background: rgb(var(--surface-variant));
+    border-color: rgb(249 115 22);
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: rgb(249 115 22);
+    border: 1px solid rgb(249 115 22);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .btn-outline:hover {
+    background: rgb(249 115 22);
+    color: rgb(var(--text-inverse));
+  }
+
+  .btn-ghost {
+    background: transparent;
+    color: rgb(249 115 22);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .btn-ghost:hover {
+    background: rgba(249, 115, 22, 0.1);
+  }
+
+  /* Card variants with orange accents */
+  .card-elevated {
+    background: rgb(var(--background));
+    border-radius: 1rem;
+    box-shadow: var(--shadow-orange-md);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .card-elevated:hover {
+    box-shadow: var(--shadow-orange-lg);
+  }
+
+  .card-interactive {
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .card-interactive:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-orange-lg);
+  }
+
+  .card-orange {
+    background: var(--gradient-secondary);
+    color: rgb(var(--text-primary));
+    border-radius: 1rem;
+  }
+
+  /* Form utilities with orange theme */
+  .form-input {
+    display: flex;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(var(--border));
+    background: rgb(var(--background));
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+  }
+
+  .form-input:focus {
+    outline: none;
+    border-color: rgb(249 115 22);
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+  }
+
+  .form-input:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  .form-textarea {
+    display: flex;
+    min-height: 5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(var(--border));
+    background: rgb(var(--background));
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+    resize: vertical;
+  }
+
+  .form-textarea:focus {
+    outline: none;
+    border-color: rgb(249 115 22);
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+  }
+
+  .form-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: rgb(var(--text-primary));
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  /* Loading states with orange theme */
+  .loading-skeleton {
+    background: linear-gradient(90deg, rgb(var(--surface)) 25%, rgba(249, 115, 22, 0.1) 50%, rgb(var(--surface)) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+    border-radius: 0.375rem;
+  }
+
+  .loading-spinner {
+    border: 2px solid rgba(249, 115, 22, 0.2);
+    border-top: 2px solid rgb(249 115 22);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  /* Status indicators with orange theme */
+  .status-success {
+    background: rgba(34, 197, 94, 0.1);
+    color: rgb(21, 128, 61);
+    border: 1px solid rgba(34, 197, 94, 0.2);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+  }
+
+  .status-warning {
+    background: rgba(245, 158, 11, 0.1);
+    color: rgb(180, 83, 9);
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+  }
+
+  .status-error {
+    background: rgba(239, 68, 68, 0.1);
+    color: rgb(185, 28, 28);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+  }
+
+  .status-info {
+    background: rgba(249, 115, 22, 0.1);
+    color: rgb(194, 65, 12);
+    border: 1px solid rgba(249, 115, 22, 0.2);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* Custom Animations with Orange Theme */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px rgba(249, 115, 22, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 30px rgba(249, 115, 22, 0.5);
+  }
+}
+
+/* Responsive Design Utilities */
+@layer utilities {
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .safe-left {
+    padding-left: env(safe-area-inset-left);
+  }
+
+  .safe-right {
+    padding-right: env(safe-area-inset-right);
+  }
+
+  /* Print utilities */
+  @media print {
+    .print-hidden {
+      display: none !important;
+    }
+
+    .print-visible {
+      display: block !important;
+    }
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* High contrast mode */
+  @media (prefers-contrast: high) {
+    .card-interactive {
+      border: 2px solid rgb(var(--border-strong));
+    }
+
+    .btn-primary {
+      border: 1px solid rgb(var(--text-primary));
+    }
+  }
+}
+
+/* Component-specific styles with orange theme */
+.react-select__control {
+  border-color: rgb(var(--border)) !important;
+  background-color: rgb(var(--background)) !important;
+  color: rgb(var(--text-primary)) !important;
+}
+
+.react-select__control:hover {
+  border-color: rgb(249 115 22) !important;
+}
+
+.react-select__control--is-focused {
+  border-color: rgb(249 115 22) !important;
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1) !important;
+}
+
+.react-select__menu {
+  background-color: rgb(var(--background)) !important;
+  border: 1px solid rgb(var(--border)) !important;
+  box-shadow: var(--shadow-orange-md) !important;
+}
+
+.react-select__option {
+  color: rgb(var(--text-primary)) !important;
+}
+
+.react-select__option--is-focused {
+  background-color: rgba(249, 115, 22, 0.1) !important;
+  color: rgb(var(--text-primary)) !important;
+}
+
+.react-select__option--is-selected {
+  background-color: rgb(249 115 22) !important;
+  color: rgb(var(--text-inverse)) !important;
+}
+
+/* Toast notifications with orange theme */
+.Toastify__toast {
+  background-color: rgb(var(--background)) !important;
+  color: rgb(var(--text-primary)) !important;
+  border: 1px solid rgb(var(--border)) !important;
+}
+
+.Toastify__toast--success {
+  background-color: rgba(34, 197, 94, 0.1) !important;
+  color: rgb(21, 128, 61) !important;
+  border-color: rgba(34, 197, 94, 0.2) !important;
+}
+
+.Toastify__toast--error {
+  background-color: rgba(239, 68, 68, 0.1) !important;
+  color: rgb(185, 28, 28) !important;
+  border-color: rgba(239, 68, 68, 0.2) !important;
+}
+
+.Toastify__toast--warning {
+  background-color: rgba(245, 158, 11, 0.1) !important;
+  color: rgb(180, 83, 9) !important;
+  border-color: rgba(245, 158, 11, 0.2) !important;
+}
+
+.Toastify__toast--info {
+  background-color: rgba(249, 115, 22, 0.1) !important;
+  color: rgb(194, 65, 12) !important;
+  border-color: rgba(249, 115, 22, 0.2) !important;
+} 

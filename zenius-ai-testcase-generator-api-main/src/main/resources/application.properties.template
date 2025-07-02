@@ -1,0 +1,47 @@
+spring.application.name=Zenius
+
+# MongoDB Configuration - Replace with your MongoDB connection details
+spring.data.mongodb.uri=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@your-cluster.mongodb.net/ZeniusAITestCaseGenerator?retryWrites=true&w=majority&readPreference=primary&appName=ZeniusAITestCaseGenerator&ssl=true&connectTimeoutMS=30000&socketTimeoutMS=30000&maxPoolSize=50&minPoolSize=10&maxIdleTimeMS=60000
+spring.data.mongodb.database=ZeniusAITestCaseGenerator
+server.port=8081
+spring.webflux.base-path=/api
+spring.data.mongodb.auto-index-creation=true
+spring.data.mongodb.connection-timeout=30000
+spring.data.mongodb.socket-timeout=30000
+spring.data.mongodb.max-connection-idle-time=60000
+spring.data.mongodb.max-connection-life-time=120000
+spring.data.mongodb.max-connection-pool-size=50
+spring.data.mongodb.min-connection-pool-size=10
+fastapi.token.limit=1300
+
+# Jira Configuration - Replace with your Jira credentials
+jira.base.url=https://your-domain.atlassian.net/
+jira.username=your-email@domain.com
+jira.api.token=YOUR_JIRA_API_TOKEN
+
+# Confluence Configuration - Replace with your Confluence credentials
+confluence.base.url=https://your-domain.atlassian.net/wiki
+confluence.username=your-email@domain.com
+confluence.api.token=YOUR_CONFLUENCE_API_TOKEN
+
+
+spring.servlet.multipart.enabled=true
+spring.servlet.multipart.max-file-size=10MB
+spring.servlet.multipart.max-request-size=10MB
+
+# File Upload Configuration
+file.upload.directory=uploads
+file.view.base.url=http://localhost:8081
+
+server.servlet.context-path=/
+
+fastapi.testcases.url=http://127.0.0.1:8080/
+fastapi.testtemplate.url=http://127.0.0.1:8080/test-template
+excel.folder-path=./GeneratedExcelFiles
+excel.output.folder=GeneratedExcelFiles
+spring.web.resources.static-locations=file:GeneratedExcelFiles/
+frontend.url=http://localhost:3000
+file.download.prefix.url= http://localhost:8081/api/download-excel/
+fastapi.endpoint.generate-test-cases=test-cases/generate-test-cases/
+sample.template.path=static/Sample_TestCaseTemplate.xlsx
+sample.template.filename=sample_template.xlsx 
