@@ -242,5 +242,5 @@ This project was built as part of an internship at **Zenius**. It represents a f
 ---
 
 <div align="center">
-Built with care by <a href="https://github.com/Bhavd33p">Bhavdeep Singh</a> · Zenius Internship 2024
+Built with care by <a href="https://github.com/Bhavd33p">Bhavdeep Singh</a> 
 </div>
